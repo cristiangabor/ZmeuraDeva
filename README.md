@@ -19,7 +19,7 @@ dotnet run
 ```
 - If you change something in the js/css/html/cs files and do not automaticaly propragate restart the kestrel software
 ```
-Ctrl + D
+Ctrl + C
 dotne run
 ```
 
@@ -28,50 +28,36 @@ dotne run
 What things you need to install the software and how to install them
 
 ```
-Give examples
+
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+.NET Core 2.2 SDK installer needs to be installed in order to run this project. Download link below
 
 ```
-Give the example
+https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+SendGrid additional package needs to be installed. Open Cmd and run
 
 ```
-Give an example
+dotnet add package SendGrid
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
+You will have success running the application when the following messages appear in cmd
 
 ```
-Give an example
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
 ```
 
-## Deployment
+## Development and Structure
 
-Add additional notes about how to deploy this on a live system
+
 
 ## Built With
 
