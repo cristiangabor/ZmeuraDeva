@@ -87,3 +87,16 @@ $(document).ready(function() {
 		
 	});
 });
+
+// Js function for Google Maps Div element
+$(document).ready(function() {
+	var piataDeva = {lat: 45.881578, lng: 22.907127};
+	var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 16, 
+			center: piataDeva,
+			gestureHandling: 'none',
+			zoomControl: false});
+	var marker = new google.maps.Marker({
+			position: piataDeva, 
+			map: map});
+});

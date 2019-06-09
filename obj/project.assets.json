@@ -12129,11 +12129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\Day1\\BootStrap\\BootStrap.csproj",
+      "projectUniqueName": "D:\\GithubRepository\\Laviniu\\ZmeuraDeva\\BootStrap.csproj",
       "projectName": "BootStrap",
-      "projectPath": "D:\\Practice\\Day1\\BootStrap\\BootStrap.csproj",
+      "projectPath": "D:\\GithubRepository\\Laviniu\\ZmeuraDeva\\BootStrap.csproj",
       "packagesPath": "C:\\Users\\Marina\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\Day1\\BootStrap\\obj\\",
+      "outputPath": "D:\\GithubRepository\\Laviniu\\ZmeuraDeva\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

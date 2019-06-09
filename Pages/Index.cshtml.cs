@@ -13,8 +13,6 @@ namespace BootStrap.Pages
         public string title_slide_2 {get;set;}
         public string title_slide_3 {get;set;}
         public string title_slide_4 {get;set;}
-        public string title_slide_5 {get;set;}
-        public string title_slide_6 {get;set;}
         
         public List<string> photo_content = new List<string>(){
             "Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web"
@@ -38,7 +36,6 @@ namespace BootStrap.Pages
         public List<string> content_slide_4 = new List<string>(){
             "Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web"
         };
-
        
 
         public void OnGet()
